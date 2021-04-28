@@ -1,0 +1,559 @@
+h6, aside#menu-movil nav a { font-family:'Cinzel Decorative', cursive; }
+h1, h2, h4, h5, a {font-family: 'Marcellus SC', serif}
+h3 {font-family: 'Marcellus SC', serif;}
+p, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+body { margin: 0 !important; }
+
+header, main, footer, aside, section, article, figure, nav, div { display: block; }
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+/* Maquetación, Estilo y Acabados en CSS */
+main section#banner-slick article.slick-slider figure { 
+width: 100%; 
+height: 88vh; 
+margin: 0; 
+float: left; 
+position: relative; 
+}
+
+main section#banner-slick article.slick-slider figure#slick-01 { 
+background: url('../Img/Equipo\ 7.jpg') no-repeat top center; background-size: cover; 
+}
+
+main section#banner-slick article.slick-slider figure#slick-02 { 
+background: url('../Img/Itachi.jpg') no-repeat top center; 
+background-size: cover; 
+}
+
+main section#banner-slick article.slick-slider figure#slick-03 { 
+background: url('../Img/Kakashi.jpg') no-repeat top center; background-size: cover; 
+}
+       
+figure#slick-01.slick-slide { 
+width: 1349px;
+position: relative;
+left: -1349px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+transform: scale(0.8);
+}
+
+figure#slick-02.slick-slide {
+width: 1349px;
+position: relative;
+left: -1349px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+transform: scale(0.8);
+}
+figure#slick-03.slick-slide { 
+width: 1349px;
+position: relative;
+left: -1349px;
+top: 0px;
+z-index: 999;
+opacity: 1;
+transform: scale(0.8);
+}
+main section#banner-slick article.slick-slider figure div.contenedor { 
+width: 70%; 
+height: auto; 
+margin: 32vh auto; 
+float: none; 
+position: relative; 
+}
+    
+    
+main section#banner-slick article.slick-slider figure div.contenedor a:hover { 
+background: rgba(255,255,255,1); 
+border: solid 2px #000; 
+color: #000;
+transition: all 0.3s ease-in; 
+}
+    
+main section#banner-slick article.slick-slider figure iframe { 
+width: 100%; 
+height: 88vh; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+    
+.slick-prev { 
+z-index: 10 !important; 
+left: 30px !important; 
+}
+.slick-next { 
+z-index: 11 !important; 
+right: 30px !important; 
+}
+    
+/* whastApp button */
+aside#Whatsapp {
+width: 45px;
+height: 45px;
+margin: 0;
+float: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 9999;
+}
+aside #Whatsapp a {
+width: auto;
+height: auto;
+margin: 0;
+float: none;
+position: relative;
+display: block;
+text-align: center;
+color: #fff;
+background: #00bb2b;
+font-size: 1.5em;
+padding: 8px 0;
+border-radius: 50%;
+transition: all 0.3s ease-in;
+}
+aside#Whatsapp a:hover {
+background: #01cf31;
+transition: all 0.3s ease-in;
+}
+
+
+/* Header */
+header {
+width: 100%;
+height: 100px;
+margin: 0;
+float: none;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 99999;
+background: #000000;
+}
+
+header article {     
+width: 900px;
+height: 100px;
+margin: 0 auto;
+float: none;
+position: relative;
+}
+
+header article figure {
+width: 80px;
+height: 90px;
+margin: 0;
+float: left;
+position: relative;
+}
+
+header article figure a { 
+width: 78px;
+height: 90px;
+margin: 0 auto;
+float: none;
+position: relative;
+display: block; 
+transition: all 0.3s ease-in;
+}
+header article figure a img {
+width: auto;
+height: 100px;
+display: block;
+margin: 0;
+float: none;
+position: relative;
+border-radius: 4px;
+transition: all 0.3s ease-in;
+}
+
+header figure a:hover {
+transform: scale(1.0);
+transition: all 0.3s ease-in;
+}
+
+header figure a:hover img { 
+transition: all 0.3s ease-in;
+}
+
+header article nav {    
+width: 421px;
+height: 50px;
+margin: 25px 0;
+float: right;
+position: relative;
+}
+
+header article nav a {  
+width: auto;
+height: auto;
+margin: 0;
+float: left;
+position: relative;
+display: block;
+color: #ffffff;
+text-decoration: none;
+font-size: 1.1em;
+line-height: 2em;
+font-weight: 900;
+padding: 18.5px 27px 15px;
+text-transform: none;
+letter-spacing: 0.08em;
+transition: all -0.7s ease-in;
+}
+
+header article nav a:hover { 
+color: rgb(255, 255, 255); 
+border-bottom: solid 2px #fdfcf8;
+transition: all 0.3s ease-in; 
+}
+
+/* Main */
+main { 
+width: 100%; 
+height: auto; 
+margin: 80px auto 0 auto; 
+float: none; 
+position: relative; 
+background-color: #000;
+}
+
+
+/* Glasses Loream */
+main section.section-menu {
+width: 100%;
+height: auto;
+margin: 0 auto 90px;
+float: none;
+position: relative;
+background-color: #000;
+}
+
+main section.section-menu div.contenido-centrado {
+width: 1100px;
+height: auto;
+margin: 0 auto;
+float: none;
+position: relative;
+}
+    
+main section.section-menu div.contenido-centrado article {
+width: 100%;
+height: auto;
+margin: 55px auto 50px;
+float: none;
+position: relative;
+}
+
+main section.section-menu div.contenido-centrado article h6 {
+font-size: 1.6em;
+text-align: center;
+color: #696975;
+letter-spacing: 0.1em;
+font-weight: 500;
+padding: 0 0 10px;
+}
+
+main section.section-menu div.contenido-centrado article h3 {
+font-size: 3em;
+line-height: 1em;
+text-align: center;
+color: rgb(255, 255, 255);
+letter-spacing: 0.015em;
+font-weight: 900;
+padding: 0;
+}
+    
+main section.section-menu div.contenido-centrado figure {
+width: 100%;
+height: auto;
+margin: 0 auto;
+float: none;
+position: relative;
+}
+
+main section.section-menu div.contenido-centrado figure div.productos {
+width: 490px;
+height: 110px;
+margin: 29px;
+float: none;
+position: relative;
+display: inline-block;
+}
+
+main section.section-menu div.contenido-centrado figure div.productos img {
+width: 185px;
+height: 110px;
+display: block;
+margin: 0;
+float: none;
+position: absolute;
+top: 0;
+left: -80px;
+border-radius: 10px;
+}
+
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto {
+width: 400px;
+height: 110px;
+display: block;
+margin: 0;
+float: none;
+position: absolute;
+top: 0;
+right: 0;
+}
+    
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto h5.reco { width: 90px;  }
+    
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto h4 { 
+font-size: 1.1em;
+line-height: 1em;
+text-align: center;
+color: rgb(255, 255, 255);
+letter-spacing: 0.035em;
+font-weight: 800;
+padding: 8px 0 15px;
+}
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto p.Texto-producto {
+font-size: 0.9em;
+line-height: 1.45em;
+text-align: center;
+color: rgb(116, 112, 112);
+letter-spacing: 0.015em;
+font-weight: 400;
+padding: 0;
+}
+    
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto p.precio-producto{
+width: 50px;
+height: auto;
+display: block;
+margin: 0;
+float: none;
+position: absolute;
+top: 26px;
+right: 0;
+font-size: 1.25em;
+line-height: 1em;
+text-align: right;
+color: #59595c;
+letter-spacing: -0.025em;
+font-weight: 700;
+}
+    
+main section.section-menu div.contenido-centrado figure div.productos div.info-producto p.precio-producto.posi-top { 
+top: 7px;
+}
+    
+
+/* Banner Video HTML5 Loop Muted */
+main section#banner-video-html5-loop-muted { 
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+background: #000; 
+overflow: hidden; 
+}
+main section#banner-video-html5-loop-muted video {
+width: 100%;
+height: 40vh;
+margin: auto;
+float: none;
+position: relative;
+transform: scale(1.2);
+top: 50px;
+}
+
+
+/* GALERIA DE IMAGENES */
+
+main section#galeria-imagenes { 
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+
+main section#galeria-imagenes article { 
+width: 1100px; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+}
+
+main section#galeria-imagenes article nav { 
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+padding: 70px 0; 
+}
+main section#galeria-imagenes article nav a { 
+width: 250px; 
+height: 250px; 
+margin: 10px; 
+float: none; 
+position: relative; 
+display: inline-block; 
+overflow: hidden; 
+border-radius: 5px; 
+transition: ease-in; 
+}
+
+main section#galeria-imagenes article nav a img { 
+width: 100%; 
+height: auto; 
+margin: 0 auto; 
+float: none; 
+position: relative; 
+display: block; 
+transition: ease-in; 
+} 
+
+main section#galeria-imagenes article nav a:hover { 
+transition: ease-in; 
+}
+
+main section#galeria-imagenes article nav a:hover img { 
+transform: scale(1.03); 
+filter: saturate(1.5); 
+transition: ease-in; 
+}
+
+
+/* FOOTER */
+footer {
+width: 100%;
+height: 200px;
+margin: 0;
+float: none;
+position: relative;
+background: no-repeat bottom center #000000;
+background-size: cover;
+}
+footer article {
+width: 1100px;
+height: 200px;
+margin: 0 auto;
+float: none;
+position: relative;
+}
+    
+footer article figure {
+width: 980px;
+height: 149px;
+margin: 25px 38px 25px 42px;
+float: left;
+position: relative;
+}
+footer article figure a {
+width: 98px;
+height: 149px;
+margin: 0 auto;
+float: none;
+position: relative;
+display: block;
+transition: all 0.3s ease-in;
+}
+footer article figure a img {
+width: auto;
+height: 140px;
+display: block;
+margin: 0 auto;
+float: none;
+position: relative;
+transition: all 0.3s ease-in ;
+border-radius: 12px;
+right: -9px;
+}
+footer article figure a:hover { 
+transform: scale(1.0);
+transition: all 0.3s ease-in;
+}
+footer article figure a:hover img { 
+transition: all 0.3s ease-in;
+}
+
+
+
+/* Zona Responsive Web Design - Media Queries */
+
+/* Rango de Tablets: (Máximo 1199px - Mínimo 500px) */
+@media only screen and (max-width: 1249px){
+    /* Banner Slide Testimonios */
+    main section#testimonios-slick .slick-prev,
+    main section#testimonios-slick .slick-next {  
+    display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    header { 
+    height: 80px; 
+    box-shadow: 0 3px 5px rgb(0 0 0 / 15%); 
+    }
+
+
+    /* Banner Video YouTube */
+    main section#banner-video-youtube iframe { 
+    height: 60vh; 
+    }
+
+    /* Banner Video HTML5  */
+    main section#banner-video-html5 video { 
+    height: 60vh; 
+    }
+
+    /* Banner Video HTML5 Loop Muted  */
+    main section#banner-video-html5-loop-muted video { 
+    height: 60vh; 
+    }
+
+    /* Banner Slick Imágenes */
+    main section#banner-slick article.slick-slider { 
+    height: 350px; 
+    }
+    main section#banner-slick article.slick-slider figure { 
+    height: 350px; 
+    }
+    main section#banner-slick article.slick-slider figure div.contenedor { 
+    width: 60%; 
+    margin: 75px auto; 
+    }
+    main section#banner-slick article.slick-slider figure div.contenedor h3 { 
+    font-size: 2.5em; 
+    }
+
+    /* Banner Slide Testimonios */
+    main section#testimonios-slick article.slick-testimonios { 
+    width: 95%; 
+    height: auto; 
+    overflow-y: hidden;
+    }
+    main section#testimonios-slick article.slick-testimonios figure {
+    width: 9% !important;
+    height: auto;
+    }
+}
+
+/* Rango de Smarthphones: (Máximo 499px - Mínimo 400px) */
+@media only screen and (max-width: 499px){
+    
+}
+
+/* Rango de Smarthphones Pequeños: (Máximo 399px - Mínimo 340px) */
+@media only screen and (max-width: 399px){
+    
+}
